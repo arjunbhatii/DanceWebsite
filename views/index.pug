@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html
+  head
+    title Our Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+         ul
+             div#logo
+              img(src="/static/img/logo.png")
+              | ODA
+             li #[a(href="/") Home ]   
+             li #[a(href="/") About]   
+             li #[a(href="/") Services]
+             li #[a(href="/") Class Info] 
+             li #[a(href="/") Contact Us]    
+
+    section#introSection
+          div Welcome to Our Dance Academy
+          div.small Eat Sleep Dance Repeat  
+
+    section#missionSection
+           h2 Our Missions
+           div.card
+               h3 Dance Perfection
+               div.card-box
+                   div.card-img 
+                      img(src="/static/img/1.png")
+                   div.card-content 
+                       p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed minima saepe consectetur rerum voluptatem architecto, cum aspernatur quidem laborum nostrum? Quis sint quasi facilis eos optio! Recusandae dignissimos odio tempora distinctio quibusdam excepturi blanditiis?
+           div.card
+               h3 Dance the Way You Like
+               div.card-box
+                   div.card-img 
+                      img(src="/static/img/2.png")
+                   div.card-content 
+                       p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed minima saepe consectetur rerum voluptatem architecto, cum aspernatur quidem laborum nostrum? Quis sint quasi facilis eos optio! Recusandae dignissimos odio tempora distinctio quibusdam excepturi blanditiis?
+           div.card
+               h3 Expert Teaching 
+               div.card-box
+                   div.card-img 
+                      img(src="/static/img/3.png")
+                   div.card-content 
+                       p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed minima saepe consectetur rerum voluptatem architecto, cum aspernatur quidem laborum nostrum? Quis sint quasi facilis eos optio! Recusandae dignissimos odio tempora distinctio quibusdam excepturi blanditiis?
+           
+    section#sponsorsSection
+          h2 Our Sponsors   
+          div#sponsers 
+              img(src="/static/img/google.png", alt="Sponser Image", Class="spimage")
+              img(src="/static/img/youtube.png", alt="Sponser Image", Class="spimage")
+              img(src="/static/img/paypal.png", alt="Sponser Image", Class="spimage")
+              img(src="/static/img/google.png", alt="Sponser Image", Class="spimage")
+
+    footer
+        | Copyright © 2020 OurDanceAcademy.com | All Rights Riserved         
+    script
+      include ../static/index.js

@@ -1,0 +1,47 @@
+//- this one is 79 video 
+extends base.pug
+
+block scripts
+  script(src='../static/index.js')
+
+block style
+      style
+         include ../static/style.css  
+
+block content
+    //- YHA SE HUMNE NAVBAR KO HATAKAR BASE ME DAL DIYA TAKI HUM USKO HAR JAGAH USE KAR SAKE 
+    section#introSection
+          div Welcome to Our Dance Academy
+          div.small Eat Sleep Dance Repeat  
+
+    section#missionSection
+           h2 Our Missions
+           div.card
+               h3 Dance Perfection
+               div.card-box
+                   div.card-img 
+                      img(src="/static/img/1.png")
+                   div.card-content 
+                       p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed minima saepe consectetur rerum voluptatem architecto, cum aspernatur quidem laborum nostrum? Quis sint quasi facilis eos optio! Recusandae dignissimos odio tempora distinctio quibusdam excepturi blanditiis?
+           div.card
+               h3 Dance the Way You Like
+               div.card-box
+                   div.card-img 
+                      img(src="/static/img/2.png")
+                   div.card-content 
+                       p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed minima saepe consectetur rerum voluptatem architecto, cum aspernatur quidem laborum nostrum? Quis sint quasi facilis eos optio! Recusandae dignissimos odio tempora distinctio quibusdam excepturi blanditiis?
+           div.card
+               h3 Expert Teaching 
+               div.card-box
+                   div.card-img 
+                      img(src="/static/img/3.png")
+                   div.card-content 
+                       p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed minima saepe consectetur rerum voluptatem architecto, cum aspernatur quidem laborum nostrum? Quis sint quasi facilis eos optio! Recusandae dignissimos odio tempora distinctio quibusdam excepturi blanditiis?
+           
+    section#sponsorsSection
+          h2 Our Sponsors   
+          div#sponsers 
+              img(src="/static/img/google.png", alt="Sponser Image", Class="spimage")
+              img(src="/static/img/youtube.png", alt="Sponser Image", Class="spimage")
+              img(src="/static/img/paypal.png", alt="Sponser Image", Class="spimage")
+              img(src="/static/img/google.png", alt="Sponser Image", Class="spimage")

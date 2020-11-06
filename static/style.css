@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color:#e32f2f;
+    padding: 13px 14px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#navbar ul{
+display: flex;
+flex-direction: row;
+/* justify-content: center; */
+align-items: center;
+
+}
+
+#navbar li{
+list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 16px 34px;
+    font-size: 22px;
+}
+
+#navbar li a:hover{
+color: black;
+font-weight: bold;
+}
+
+#introSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a97171;
+    background: url(/static/bg.jpg)no-repeat center/cover;
+    height: 545px;
+    background-color: red;
+    font-family: 'Dancing Script', cursive;
+    font-size: 83px;
+    padding-bottom: 374px;
+}
+
+#introSection div.small{
+    font-size: 65px;
+    color: #ec8d8d;
+
+}
+
+#missionSection{
+    height: 320px;
+    width: 95%;
+    margin: auto;
+    /* background-color:white; */
+    
+
+}
+
+#missionSection h2{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 215px;
+    margin: 23px 15px;
+    background-color: #f9e6e645;
+
+}
+
+.card h3{
+text-align: center;
+margin: 12px;
+margin-top: 0 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+height: 131px;
+padding: 0 14px;
+margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 10px;
+}
+
+.card-content p {
+    font-size: 10px;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color:#f2a3a378;
+    font-family: 'Balsamiq Sans', cursive;
+
+}
+
+#sponsorsSection h2{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#sponsers{
+    display: flex;
+    height: 191px;
+    max-width: 100px;
+    margin: 27px 370px;
+
+}
+
+.spimage{
+    height: 80px;
+    height: 100px;
+    padding: 12px;
+}
+footer{
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+background-color: black;
+height: 60px;
+font-size: 20px;
+font-family: 'Lexend Peta', sans-serif;
+}
